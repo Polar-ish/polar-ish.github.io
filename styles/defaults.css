@@ -1,7 +1,9 @@
 @import url(reset.css);
 
-
-@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@font-face {
+    font-family: Miracode;
+    src: url(../assets/fonts/Miracode.ttf);
+}
 
 :root{
     --name: Catppuccin Mocha;
@@ -32,7 +34,8 @@
     --selectionBackground: #585B70;
     --cursorColor: #F5E0DC;
     
-    --font-family: "Quintessential", serif;
+    /* --font-family: "Quintessential", serif; */
+    --font-family: Miracode;
     --font-weight: 400;
     --font-style: normal;
 }
